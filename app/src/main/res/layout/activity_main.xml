@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:splitMotionEvents = "false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="#000"
+
+    android:drawingCacheQuality="high"
+    android:id="@+id/layout"
+    android:baselineAligned="false"
+    android:measureWithLargestChild="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.00"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:id="@+id/but1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_boarder"
+            android:baselineAlignBottom="false" />
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:id="@+id/but2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_boarder" />
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:id="@+id/but3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_boarder"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:id="@+id/but4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_boarder" />
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:id="@+id/but5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_boarder" />
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:id="@+id/but6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_boarder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:id="@+id/but7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_boarder" />
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:id="@+id/but8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/button_boarder" />
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:id="@+id/but9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_boarder" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:editable="true"
+        android:textColor="#ff0000" />
+
+</LinearLayout>
